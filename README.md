@@ -1,46 +1,33 @@
 # Angular 4 Movie Finder App
 
-A [nuxtjs](https://github.com/nuxt/nuxt.js) and [nuxt-content](https://github.com/nuxt-community/content-module) template.
+See demo: https://moh7afiz90.github.io/movie-finder-app/
 
-See demo: https://nuxt-community.github.io/content-template/
+## About
 
-## Installation
+Angular 4 application that uses [TMDb](https://www.themoviedb.org) API to fetch Data.
 
-This is a site template for [vue-cli](https://github.com/vuejs/vue-cli).
+### Technology
+- HTML5
+- CSS3
+- Angular 4
+- Bootstrap 3
+- TMDb API
 
-``` bash
-$ vue init nuxt-community/content-template my-site
-$ cd my-site
-# install dependencies
-$ npm install # Or yarn install
-```
+### Features
+- Popular Movies on the home page.
+- Search Movies.
 
-> Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
-
-## Usage
-
-### Development
+### Deploy with github pages
 
 ``` bash
-# serve with hot reloading at localhost:3000
-$ npm run dev
+# First install angular-cli-ghpages globally
+$ npm install -g angular-cli-ghpages
+# Angular CLI with the --base-href
+$ ng build --prod --base-href "https://<user-name>.github.io/<repo>/"
+# To publish the app
+$ ngh
 ```
+Source [https://alligator.io/angular/deploying-angular-app-github-pages/](Alligator.io)
 
-Go to [http://localhost:4200](http://localhost:4200)
-
-### Production
-
-``` bash
-# build for production and launch the server
-$ npm run build
-$ npm start
-```
-
-### Generate
-
-``` bash
-# generate a static project
-$ npm run generate
-```
-
-
+## License
+MIT
