@@ -1,15 +1,15 @@
-# Angular 4 Movie Finder App
+# Angular 2 Movie Finder App
 
 See demo: https://moh7afiz90.github.io/movie-finder-app/
 
 ## About
 
-Angular 4 application that uses [TMDb](https://www.themoviedb.org) API to fetch Data.
+Angular 2 application that uses [TMDb](https://www.themoviedb.org) API to fetch Data.
 
 ## Technology
 - HTML5
 - CSS3
-- Angular 4
+- Angular 2
 - Bootstrap 3
 - TMDb API
 
