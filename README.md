@@ -6,18 +6,18 @@ See demo: https://moh7afiz90.github.io/movie-finder-app/
 
 Angular 4 application that uses [TMDb](https://www.themoviedb.org) API to fetch Data.
 
-### Technology
+## Technology
 - HTML5
 - CSS3
 - Angular 4
 - Bootstrap 3
 - TMDb API
 
-### Features
+## Features
 - Popular Movies on the home page.
 - Search Movies.
 
-### Deploy with github pages
+## Deploy with github pages
 
 ``` bash
 # First install angular-cli-ghpages globally
