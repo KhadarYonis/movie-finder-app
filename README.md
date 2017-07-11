@@ -1,28 +1,46 @@
-# MovieFinderApp
+# Angular 4 Movie Finder App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
+A [nuxtjs](https://github.com/nuxt/nuxt.js) and [nuxt-content](https://github.com/nuxt-community/content-module) template.
 
-## Development server
+See demo: https://nuxt-community.github.io/content-template/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+This is a site template for [vue-cli](https://github.com/vuejs/vue-cli).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+``` bash
+$ vue init nuxt-community/content-template my-site
+$ cd my-site
+# install dependencies
+$ npm install # Or yarn install
+```
 
-## Build
+> Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Usage
 
-## Running unit tests
+### Development
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+``` bash
+# serve with hot reloading at localhost:3000
+$ npm run dev
+```
 
-## Running end-to-end tests
+Go to [http://localhost:4200](http://localhost:4200)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+### Production
 
-## Further help
+``` bash
+# build for production and launch the server
+$ npm run build
+$ npm start
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Generate
+
+``` bash
+# generate a static project
+$ npm run generate
+```
+
+
